@@ -42,7 +42,7 @@ import {
 } from '../slices/userSlice'
 import axios from 'axios';
 
-const URL = 'http://localhost:5000'
+const URL = 'https://malar-backend.onrender.com'
 
 
 export const login = (email, password) => async (dispatch) => {

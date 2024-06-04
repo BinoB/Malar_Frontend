@@ -40,7 +40,7 @@ import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
 import MainPage from './components/MainPage';
 
-const URL = 'http://localhost:5000'
+const URL = 'https://malar-backend.onrender.com'
 
 
 function App() {

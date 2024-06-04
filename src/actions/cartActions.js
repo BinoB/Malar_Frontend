@@ -1,7 +1,7 @@
 import {addCartItemRequest, addCartItemSuccess} from '../slices/cartSlice';
 import axios from 'axios'
 
-const URL = 'http://localhost:5000'
+const URL = 'https://malar-backend.onrender.com'
 
 export const addCartItem = (id, quantity) => async(dispatch) => {
     try {
