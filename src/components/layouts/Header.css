@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #fefcfc;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  /* #search_btn {
+    background-color: #38a29e;
+  }
+   */
+  .input-group {
+    width: 50%;
+    margin-right: 35%;
+  }
+  
+  #search_field {
+    height: 2.4rem;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  
+  #login_btn,
+  #view_btn {
+    background-color: #38a29e;
+    padding: 0.4rem 1.8rem;
+    font-family: calibri;
+  }
+  
+  #cart {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  #cart_count {
+    background-color: #38a29e;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+
+  /* CSS for offcanvas menu */
+.offcanvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1050;
+  left: 0; /* Updated */
+  display: none;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  box-shadow: -0.5rem 0 1rem rgba(0, 0, 0, 0.15); /* Updated */
+  transition: transform 0.3s ease;
+}
+
+
+.offcanvas.show {
+  display: block;
+  transform: translateX(0);
+}
+
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.offcanvas-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.navbar-brand a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.username{
+  color: black;
+}

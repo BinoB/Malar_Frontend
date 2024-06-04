@@ -1,0 +1,35 @@
+.input-group {
+    position: relative;
+    width: 50%;
+  }
+  
+  .input-grou {
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 30px; */
+    outline: none;
+  }
+  
+  .input-group .input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .input-group .btn {
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .input-group .btn i {
+    color: #555;
+  }
+  
