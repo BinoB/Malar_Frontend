@@ -218,7 +218,7 @@ export default function Header() {
           </Link>
         )}
         <Link to="/cart">
-    <span id="cart" className="ml-3" style={{ paddingTop: '10px' }}>
+    <span id="cart" className="btn ml-3" style={{ paddingTop: '10px' }}>
         Cart
     </span>
 </Link>
